@@ -7,5 +7,7 @@ const handleLogin = (credential) => {
 </script>
 
 <template>
-  <Loginform @submit="handleLogin" />
+  <div class="login-page-container">
+    <Loginform @submit="handleLogin" />
+  </div>
 </template>
